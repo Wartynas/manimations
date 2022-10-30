@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "manimations"
+version = "0.1.0"
+description = "A personal project containing my manim animations"
+authors = ["Martynas Venckus <martynas.venckus97@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+manim = "^0.16.0.post0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
