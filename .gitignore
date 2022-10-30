@@ -128,4 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# manim
+*/media
+
+
 .idea
+.DS_store
